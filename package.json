@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-studio-ghibli",
+  "version": "0.1.0",
+  "description": "Studio Ghibli fan API (films, people, locations, species, vehicles)",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "studio-ghibli"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-studio-ghibli"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
