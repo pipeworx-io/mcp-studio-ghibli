@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/studio-ghibli",
   "title": "Studio Ghibli",
-  "description": "Studio Ghibli fan API (films, people, locations, species, vehicles)",
-  "version": "0.1.0",
+  "description": "Studio Ghibli MCP — fan API.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/studio-ghibli",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-studio-ghibli",
