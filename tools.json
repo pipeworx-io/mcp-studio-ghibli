@@ -1,0 +1,137 @@
+[
+  {
+    "name": "films",
+    "description": "List all Studio Ghibli films (up to optional limit), returning title, director, producer, release year, running time, Rotten Tomatoes score, and related character/location/vehicle URLs.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  {
+    "name": "film",
+    "description": "Single film by id.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "people",
+    "description": "List Studio Ghibli characters (up to optional limit), returning name, gender, age, eye/hair color, species, and the films they appear in.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  {
+    "name": "person",
+    "description": "Single person by id.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "locations",
+    "description": "List fictional locations from Studio Ghibli films (up to optional limit), returning name, climate, terrain, surface water, and the films they appear in.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  {
+    "name": "location",
+    "description": "Single location by id.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "species",
+    "description": "List species that appear in Studio Ghibli films (up to optional limit), returning name, classification, eye/hair colors, and the films and characters associated with that species.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  {
+    "name": "species_one",
+    "description": "Single species by id.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "vehicles",
+    "description": "List vehicles from Studio Ghibli films (up to optional limit), returning name, description, vehicle class, length, pilot, and the film it appears in.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  {
+    "name": "vehicle",
+    "description": "Single vehicle by id.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  }
+]
