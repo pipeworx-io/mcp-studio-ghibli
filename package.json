@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-studio-ghibli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Studio Ghibli MCP — fan API. Auth: none. Docs: https://ghibliapi.vercel.app",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "studio-ghibli",
     "gatewaySlug": "studio-ghibli",
-    "sourceHash": "v1-c64149416ab9e161f700d06ecdb201ad3de03c28a0c0407d446bc2e4a2669c53",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-cf355c553aa5c2b49911d2267f59e1432f7d4cfea1107b03384dd393f9ab390c",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
